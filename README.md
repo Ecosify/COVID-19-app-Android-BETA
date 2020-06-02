@@ -3,6 +3,11 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Release: BETA](https://img.shields.io/badge/Release-BETA-orange)
 
+## Vulnerability Reporting
+
+If you believe you have found a security vulnerability, please read our vulnerability disclosure policy and submit your report to us at:
+https://hackerone.com/nhscovid19app
+
 ## Build setup
 
 Some secrets need to be set for the build to run. Please *DO NOT* add them to the project's `gradle.properties`.
