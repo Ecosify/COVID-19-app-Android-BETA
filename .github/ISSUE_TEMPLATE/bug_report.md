@@ -6,6 +6,9 @@ labels: ''
 assignees: ''
 
 ---
+# Vulnerability Reporting
+
+If you believe you have found a security vulnerability, please read our vulnerability disclosure policy and submit your report to us at: https://hackerone.com/nhscovid19app
 
 **Describe the bug**
 A clear and concise description of what the bug is.
