@@ -129,3 +129,5 @@ Android Studio setup.
   * The build number will be set automatically. you don't need to change or commit it to git
 
 Check [Gradle Play Publisher](https://github.com/Triple-T/gradle-play-publisher) for more info
+
+...
