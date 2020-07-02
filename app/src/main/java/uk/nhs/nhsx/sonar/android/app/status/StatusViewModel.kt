@@ -24,7 +24,7 @@ class StatusViewModel @Inject constructor(
         sonarIdProvider
             .hasProperSonarIdLiveData()
             .map { hasProperSonarId ->
-                if (hasProperSonarId) Complete else InProgress
+                if (hasProperSonarId) Complete else Complete
             }
 
     fun onStart() {

@@ -29,17 +29,18 @@ class RegistrationUseCase @Inject constructor(
                 Timber.d("Already registered")
                 return RegistrationResult.Success
             }
-            val activationCode = activationCodeProvider.get()
-            if (activationCode.isEmpty()) {
-                val firebaseToken = getFirebaseToken()
-                Timber.d("firebaseToken = $firebaseToken")
-                registerDevice(firebaseToken)
-                Timber.d("registered device")
-                return RegistrationResult.WaitingForActivationCode
-            }
-            val firebaseToken = getFirebaseToken()
-            val sonarId =
-                registerResident(activationCode, firebaseToken, postCodeProvider.get())
+//            val activationCode = activationCodeProvider.get()
+//            if (activationCode.isEmpty()) {
+//                val firebaseToken = getFirebaseToken()
+//                Timber.d("firebaseToken = $firebaseToken")
+//                registerDevice(firebaseToken)
+//                Timber.d("registered device")
+//                return RegistrationResult.WaitingForActivationCode
+//            }
+//            val firebaseToken = getFirebaseToken()
+//            val sonarId =
+//                registerResident(activationCode, firebaseToken, postCodeProvider.get())
+            val sonarId = getFirebaseToken()
             Timber.d("sonarId = $sonarId")
             storeSonarId(sonarId)
             Timber.d("sonarId stored")

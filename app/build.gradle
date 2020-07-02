@@ -46,13 +46,10 @@ android {
     }
 
     defaultConfig {
-        def baseUrl = findProperty("sonar.baseUrl") ?: {
-            throw new MissingPropertyException("Missing property `sonar.baseUrl` please see README for instructions")
-        }
 
-        def headerValue = findProperty("sonar.headerValue") ?: {
-            throw new MissingPropertyException("Missing property `sonar.headerValue` please see README for instructions")
-        }
+        def baseUrl = findProperty("sonar.baseUrl") ?: 1
+
+        def headerValue = findProperty("sonar.headerValue") ?: 1
 
         buildConfigField("String", "BASE_URL", "\"$baseUrl\"")
         buildConfigField("String", "SONAR_HEADER_VALUE", "\"$headerValue\"")
