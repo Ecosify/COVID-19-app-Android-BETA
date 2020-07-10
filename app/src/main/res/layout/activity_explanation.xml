@@ -65,7 +65,7 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
 
-                    <uk.nhs.nhsx.sonar.android.app.widgets.AccessibilityTextView
+                    <effiia.com.Safe2.sonar.android.app.widgets.AccessibilityTextView
                         android:id="@+id/moreInfoHeading"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"

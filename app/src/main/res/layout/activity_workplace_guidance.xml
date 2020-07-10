@@ -32,7 +32,7 @@
                 android:paddingVertical="40dp"
                 android:src="@drawable/ic_guidance" />
 
-            <uk.nhs.nhsx.sonar.android.app.widgets.AccessibilityTextView
+            <effiia.com.Safe2.sonar.android.app.widgets.AccessibilityTextView
                 android:id="@+id/workplace_guidance_title"
                 style="@style/TextViewStatus"
                 android:layout_width="match_parent"
@@ -58,7 +58,7 @@
                 android:layout_marginHorizontal="16dp"
                 android:text="@string/latest_guidance"/>
 
-            <uk.nhs.nhsx.sonar.android.app.widgets.AccessibilityTextView
+            <effiia.com.Safe2.sonar.android.app.widgets.AccessibilityTextView
                 style="@style/TextViewStatusSubTitleHeading"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

@@ -8,7 +8,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="uk.nhs.nhsx.sonar.android.app.FlowTestStartActivity">
+    tools:context="effiia.com.Safe2.sonar.android.app.FlowTestStartActivity">
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/start_main_activity"

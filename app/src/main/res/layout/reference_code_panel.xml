@@ -84,7 +84,7 @@
     </LinearLayout>
     </LinearLayout>
 
-    <uk.nhs.nhsx.sonar.android.app.widgets.ErrorView
+    <effiia.com.Safe2.sonar.android.app.widgets.ErrorView
         android:id="@+id/referenceCodeErrorView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

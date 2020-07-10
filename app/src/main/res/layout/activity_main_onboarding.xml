@@ -9,7 +9,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="uk.nhs.nhsx.sonar.android.app.MainActivity">
+    tools:context="effiia.com.Safe2.sonar.android.app.MainActivity">
 
     <include layout="@layout/banner_icon_and_title" />
 
@@ -37,7 +37,7 @@
                 android:contentDescription="@null"
                 android:src="@drawable/ic_onboarding_intro" />
 
-            <uk.nhs.nhsx.sonar.android.app.widgets.AccessibilityTextView
+            <effiia.com.Safe2.sonar.android.app.widgets.AccessibilityTextView
                 android:id="@+id/onboarding_title"
                 style="@style/OnboardingTitle"
                 android:layout_width="wrap_content"

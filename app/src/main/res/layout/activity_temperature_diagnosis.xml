@@ -37,7 +37,7 @@
                 android:textColor="@color/text_sub_title"
                 android:textSize="14sp" />
 
-            <uk.nhs.nhsx.sonar.android.app.widgets.AccessibilityTextView
+            <effiia.com.Safe2.sonar.android.app.widgets.AccessibilityTextView
                 android:id="@+id/temperature_question"
                 style="@style/TextViewSubHead"
                 android:layout_width="match_parent"
@@ -45,14 +45,14 @@
                 android:layout_below="@+id/progress"
                 android:text="@string/temperature_question" />
 
-            <uk.nhs.nhsx.sonar.android.app.widgets.ParagraphsContainer
+            <effiia.com.Safe2.sonar.android.app.widgets.ParagraphsContainer
                 android:id="@+id/temperature_description"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/temperature_question"
                 android:layout_marginTop="8dp" />
 
-            <uk.nhs.nhsx.sonar.android.app.widgets.ErrorView
+            <effiia.com.Safe2.sonar.android.app.widgets.ErrorView
                 android:id="@+id/radio_selection_error"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

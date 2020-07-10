@@ -4,7 +4,7 @@
   -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="uk.nhs.nhsx.sonar.android.app">
+    package="effiia.com.Safe2.sonar.android.app">
 
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
@@ -25,7 +25,7 @@
         android:required="true" />
 
     <application
-        android:name=".SonarApplication"
+        android:name="effiia.com.Safe2.sonar.android.app.SonarApplication"
         android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -41,7 +41,7 @@
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
 
-        <activity android:name=".MainActivity">
+        <activity android:name="effiia.com.Safe2.sonar.android.app.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -50,126 +50,127 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".FlowTestStartActivity" />
-        <activity android:name=".debug.TesterActivity" />
+        <activity android:name="effiia.com.Safe2.sonar.android.app.FlowTestStartActivity" />
+        <activity android:name="effiia.com.Safe2.sonar.android.app.debug.TesterActivity" />
 
         <activity
-            android:name=".onboarding.MainOnboardingActivity"
+            android:name="effiia.com.Safe2.sonar.android.app.onboarding.MainOnboardingActivity"
             android:label="@string/onboarding_title" />
         <activity
-            android:name=".onboarding.ExplanationActivity"
+            android:name="effiia.com.Safe2.sonar.android.app.onboarding.ExplanationActivity"
             android:label="@string/explanation_title" />
         <activity
-            android:name=".onboarding.PostCodeActivity"
+            android:name="effiia.com.Safe2.sonar.android.app.onboarding.PostCodeActivity"
             android:label="@string/post_code_title"
             android:windowSoftInputMode="stateHidden|adjustPan" />
         <activity
-            android:name=".onboarding.PermissionActivity"
+            android:name="effiia.com.Safe2.sonar.android.app.onboarding.PermissionActivity"
             android:label="@string/permission_title" />
         <activity
-            android:name=".onboarding.EnableBluetoothActivity"
+            android:name="effiia.com.Safe2.sonar.android.app.onboarding.EnableBluetoothActivity"
             android:label="@string/enable_bluetooth_title" />
         <activity
-            android:name=".onboarding.GrantLocationPermissionActivity"
+            android:name="effiia.com.Safe2.sonar.android.app.onboarding.GrantLocationPermissionActivity"
             android:label=" " />
         <activity
-            android:name=".onboarding.EnableLocationActivity"
+            android:name="effiia.com.Safe2.sonar.android.app.onboarding.EnableLocationActivity"
             android:label="@string/enable_location_service_title" />
 
         <activity
-            android:name=".edgecases.ReEnableBluetoothActivity"
+            android:name="effiia.com.Safe2.sonar.android.app.edgecases.ReEnableBluetoothActivity"
             android:label="@string/re_enable_bluetooth_title" />
         <activity
-            android:name=".edgecases.ReAllowGrantLocationPermissionActivity"
+            android:name="effiia.com.Safe2.sonar.android.app.edgecases.ReAllowGrantLocationPermissionActivity"
             android:label="@string/re_allow_location_permission_title" />
         <activity
-            android:name=".edgecases.ReEnableLocationActivity"
+            android:name="effiia.com.Safe2.sonar.android.app.edgecases.ReEnableLocationActivity"
             android:label="@string/re_enable_location_title" />
         <activity
-            android:name=".edgecases.DeviceNotSupportedActivity"
+            android:name="effiia.com.Safe2.sonar.android.app.edgecases.DeviceNotSupportedActivity"
             android:label="@string/device_not_supported_title" />
         <activity
-            android:name=".edgecases.TabletNotSupportedActivity"
+            android:name="effiia.com.Safe2.sonar.android.app.edgecases.TabletNotSupportedActivity"
             android:label="@string/tablet_support_title" />
 
         <!-- Space character is used in the label to prevent accessibility manager from announcing app label
              We have custom announcer in the activity itself -->
         <activity
-            android:name=".status.StatusActivity"
+            android:name="effiia.com.Safe2.sonar.android.app.status.StatusActivity"
             android:label=" " />
 
         <activity
-            android:name=".referencecode.ReferenceCodeActivity"
+            android:name="effiia.com.Safe2.sonar.android.app.referencecode.ReferenceCodeActivity"
             android:label="@string/reference_code_title" />
 
         <activity
-            android:name=".diagnose.DiagnoseTemperatureActivity"
+            android:name="effiia.com.Safe2.sonar.android.app.diagnose.DiagnoseTemperatureActivity"
             android:label=" " />
         <activity
-            android:name=".diagnose.DiagnoseCoughActivity"
+            android:name="effiia.com.Safe2.sonar.android.app.diagnose.DiagnoseCoughActivity"
             android:label=" " />
         <activity
-            android:name=".diagnose.review.DiagnoseReviewActivity"
+            android:name="effiia.com.Safe2.sonar.android.app.diagnose.review.DiagnoseReviewActivity"
             android:label="@string/check_answers" />
         <activity
-            android:name=".diagnose.DiagnoseCloseActivity"
+            android:name="effiia.com.Safe2.sonar.android.app.diagnose.DiagnoseCloseActivity"
             android:label="@string/you_do_not_have_symptoms" />
         <activity
-            android:name=".diagnose.DiagnoseSubmitActivity"
+            android:name="effiia.com.Safe2.sonar.android.app.diagnose.DiagnoseSubmitActivity"
             android:label="@string/please_confirm_the_information" />
         <activity
-            android:name=".diagnose.DiagnoseStomachActivity"
+            android:name="effiia.com.Safe2.sonar.android.app.diagnose.DiagnoseStomachActivity"
             android:label=" " />
         <activity
-            android:name=".diagnose.DiagnoseSneezeActivity"
+            android:name="effiia.com.Safe2.sonar.android.app.diagnose.DiagnoseSneezeActivity"
             android:label=" " />
         <activity
-            android:name=".diagnose.DiagnoseAnosmiaActivity"
+            android:name="effiia.com.Safe2.sonar.android.app.diagnose.DiagnoseAnosmiaActivity"
             android:label=" " />
 
         <activity
-            android:name=".interstitials.WorkplaceGuidanceActivity"
+            android:name="effiia.com.Safe2.sonar.android.app.interstitials.WorkplaceGuidanceActivity"
             android:label="@string/latest_workplace_guidance" />
         <activity
-            android:name=".interstitials.ApplyForTestActivity"
+            android:name="effiia.com.Safe2.sonar.android.app.interstitials.ApplyForTestActivity"
             android:label="@string/apply_for_test_now" />
         <activity
-            android:name=".interstitials.CurrentAdviceActivity"
+            android:name="effiia.com.Safe2.sonar.android.app.interstitials.CurrentAdviceActivity"
             android:label="@string/current_advice_title" />
 
         <service
-            android:name=".ble.BluetoothService"
+            android:name="effiia.com.Safe2.sonar.android.app.ble.BluetoothService"
             android:enabled="true" />
 
         <service
-            android:name=".notifications.NotificationService"
+            android:name="effiia.com.Safe2.sonar.android.app.notifications.NotificationService"
             android:exported="false">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
 
-        <receiver android:name=".receivers.BootCompletedReceiver">
+        <receiver android:name="effiia.com.Safe2.sonar.android.app.receivers.BootCompletedReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
         </receiver>
 
-        <receiver android:name=".receivers.PackageReplacedReceiver">
+        <receiver android:name="effiia.com.Safe2.sonar.android.app.receivers.PackageReplacedReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
             </intent-filter>
         </receiver>
 
-        <receiver android:name=".receivers.TurnBluetoothOnReceiver" />
-        <receiver android:name=".receivers.ServiceRestarterBroadcastReceiver" />
-        <receiver android:name=".notifications.reminders.ReminderBroadcastReceiver">
+        <receiver android:name="effiia.com.Safe2.sonar.android.app.receivers.TurnBluetoothOnReceiver" />
+        <receiver android:name="effiia.com.Safe2.sonar.android.app.receivers.ServiceRestarterBroadcastReceiver" />
+        <receiver android:name="effiia.com.Safe2.sonar.android.app.notifications.reminders.ReminderBroadcastReceiver">
 
         </receiver>
 
+
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="uk.nhs.nhsx.sonar.android.app.exports"
+            android:authorities="effiia.com.Safe2.sonar.android.app.exports"
             android:exported="false"
             android:grantUriPermissions="true">
 

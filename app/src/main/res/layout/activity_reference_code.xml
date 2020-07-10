@@ -32,7 +32,7 @@
                 android:background="@drawable/ic_bg_gradient_top"
                 android:src="@drawable/ic_reference_link" />
 
-            <uk.nhs.nhsx.sonar.android.app.widgets.AccessibilityTextView
+            <effiia.com.Safe2.sonar.android.app.widgets.AccessibilityTextView
                 style="@style/TextViewStatus"
                 android:id="@+id/reference_code_title"
                 android:layout_width="match_parent"
@@ -41,7 +41,7 @@
                 android:layout_marginBottom="24dp"
                 android:text="@string/reference_code_title" />
 
-            <uk.nhs.nhsx.sonar.android.app.widgets.AccessibilityTextView
+            <effiia.com.Safe2.sonar.android.app.widgets.AccessibilityTextView
                 style="@style/TextViewStatusSubTitleHeading"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -60,7 +60,7 @@
                 android:text="@string/reference_code_description_1"
                 android:textColor="@color/text_primary_color" />
 
-            <uk.nhs.nhsx.sonar.android.app.widgets.AccessibilityTextView
+            <effiia.com.Safe2.sonar.android.app.widgets.AccessibilityTextView
                 style="@style/TextViewStatusSubTitleHeading"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -79,7 +79,7 @@
                 android:text="@string/reference_code_description_2"
                 android:textColor="@color/text_primary_color" />
 
-            <uk.nhs.nhsx.sonar.android.app.widgets.AccessibilityTextView
+            <effiia.com.Safe2.sonar.android.app.widgets.AccessibilityTextView
                 style="@style/TextViewStatus"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -87,7 +87,7 @@
                 android:layout_marginBottom="16dp"
                 android:text="@string/reference_code_linking" />
 
-            <uk.nhs.nhsx.sonar.android.app.referencecode.ReferenceCodePanel
+            <effiia.com.Safe2.sonar.android.app.referencecode.ReferenceCodePanel
                 android:id="@+id/reference_code_panel"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -104,7 +104,7 @@
                 android:text="@string/reference_code_description_3"
                 android:textColor="@color/text_primary_color" />
 
-            <uk.nhs.nhsx.sonar.android.app.widgets.AccessibilityTextView
+            <effiia.com.Safe2.sonar.android.app.widgets.AccessibilityTextView
                 style="@style/TextViewStatusSubTitleHeading"
                 android:id="@+id/testResultMeaningTitle"
                 android:layout_width="match_parent"
