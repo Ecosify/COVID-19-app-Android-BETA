@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "296948886561",
+    "firebase_url": "https://safe2-proximity-detection.firebaseio.com",
+    "project_id": "safe2-proximity-detection",
+    "storage_bucket": "safe2-proximity-detection.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:296948886561:android:4131a7eed5e02752ec4760",
+        "android_client_info": {
+          "package_name": "effiia.com.Safe2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "296948886561-d6cm5pco9ppu16r69m4cidu7vnnq60qs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMukxsC5mviuvwDkJOXhxkv5Fh0kt6H_w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "296948886561-d6cm5pco9ppu16r69m4cidu7vnnq60qs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
